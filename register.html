@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <title>Register-to-Bhushan's_Blog</title>
+</head>
+<style type="text/css">
+    html {
+        background: url('./bg.jpg') no-repeat center center fixed;
+        background-size: cover;
+    }
+    
+    .content-register {
+        background: rgba(0, 0, 0, 0.6);
+        padding: 20px;
+        margin: 10px 290px;
+        width: 50%;
+        color: #fff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+    }
+    
+    .content-register p {
+        font-size: 20px;
+    }
+    
+    .content-register h1 {
+        text-align: center;
+        font-size: 50px;
+    }
+    
+    .content-register input,
+    select {
+        font-size: 14px;
+        padding: 10px 6px;
+        width: 100%;
+        border: 0;
+        border-radius: 5px;
+    }
+    
+    table {
+        border: solid 1px #fff;
+        width: 80%;
+    }
+    
+    .content-register button {
+        background-color: #fff;
+        color: #000;
+        font-family: candara;
+        font-size: 20px;
+        margin-left: 130px;
+        padding: 10px 15px;
+        width: 50%;
+        border: solid 1px #fff;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        box-shadow: 0 8px 3px 0 rgba(189, 29, 29, 0.6);
+        transition: 0.4s;
+    }
+    
+    .content-register .ref a {
+        text-decoration: none;
+        color: #000;
+    }
+    
+    .content-register .already {
+        text-decoration: none;
+        color: yellow;
+        text-align: center;
+    }
+    
+    .content-register .already a {
+        text-decoration: none;
+        color: teal;
+    }
+</style>
+
+<body>
+    <div id="" class="content-register">
+        <h1> Register to<span style="color: blue; font-size:60px;"> B</span>hushan's <span style="color: blue; font-size: 60px;"> B</span>log</h1>
+        <div class="already">
+            <h2><a href="Form.html"> Already have an account? click here!</a></h2>
+        </div>
+        </h2>
+        <form method="POST" action="connect.php">
+            <table align="center" cellspacing="30px;">
+                <tr>
+                    <td>
+                        <p>Full Name</p>
+                    </td>
+                    <td><input type="text" name="fullname" placeholder="Full name " required></td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>User Name</p>
+                    </td>
+                    <td><input type="text" name="username" placeholder="User name " required></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p>Email</p>
+                    </td>
+                    <td><input type="text" name="email" placeholder="Email " required></td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Phone</p>
+                    </td>
+                    <td><input type="Text" name="phone" placeholder="Phone number " required></td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Password</p>
+                    </td>
+                    <td><input type="password" name="password" placeholder="Password " required></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button type="submit"> <div class="ref">Register </div> </button></td>
+                    <td></td>
+
+                </tr>
+            </table>
+
+        </form>
+    </div>
+</body>
+
+</html>
